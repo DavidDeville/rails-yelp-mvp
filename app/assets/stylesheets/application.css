@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+.restaurant {
+  margin-bottom: 20px;
+}
+
+.restaurant li {
+  list-style-type: none;
+}
+
+.restaurant-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.restaurant-navbar a:hover {
+  color:aquamarine;
+  transition: 0.3s ease;
+}
